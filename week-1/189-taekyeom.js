@@ -17,3 +17,7 @@ var rotate = function (nums, k) {
     }
   }
 }
+
+let nums = [-1, -100, 3, 99]
+let k = 2
+console.log(rotate(nums, k)) // [3, 99, -1, -100]

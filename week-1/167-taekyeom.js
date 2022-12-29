@@ -20,3 +20,7 @@ var twoSum = function (numbers, target) {
     }
   }
 }
+
+let numbers = [2, 7, 11, 15]
+let target = 9
+console.log(twoSum(numbers, target)) // [1, 2]
