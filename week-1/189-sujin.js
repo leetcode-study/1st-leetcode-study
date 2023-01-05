@@ -7,7 +7,7 @@ var rotate = function(nums, k) {
     const arraySize = nums.length;
     const numsCopy = nums.slice();
 
-    return nums.reduce(
+    nums = nums.reduce(
         (accumulator, currentValue, index) => {
             const remainder = (index + k) % (arraySize);
             accumulator[remainder] = currentValue;
